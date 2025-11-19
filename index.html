@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSecure - Современное решение для кибербезопасности</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-shield-alt"></i>
+                CyberSecure
+            </a>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#tools">Инструменты</a></li>
+                    <li><a href="#security">Безопасность</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="fade-in">Добро пожаловать в мир кибербезопасности!</h1>
+            <p class="fade-in delay-1">Научись защищать свои данные и быть в безопасности в интернете</p>
+            <div class="cta-buttons fade-in delay-2">
+                <a href="#tools" class="btn btn-primary smooth-scroll">
+                    <i class="fas fa-lock"></i>
+                    Проверить пароль
+                </a>
+                <a href="#security" class="btn btn-secondary smooth-scroll">
+                    <i class="fas fa-shield-alt"></i>
+                    Узнать больше
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item fade-in">
+                    <div class="stat-number" id="attacks-counter">0</div>
+                    <div class="stat-label">попыток взлома в минуту</div>
+                </div>
+                <div class="stat-item fade-in delay-1">
+                    <div class="stat-number">4.8 млрд</div>
+                    <div class="stat-label">сломанных паролей</div>
+                </div>
+                <div class="stat-item fade-in delay-2">
+                    <div class="stat-number">32%</div>
+                    <div class="stat-label">больше угроз каждый год</div>
+                </div>
+                <div class="stat-item fade-in delay-3">
+                    <div class="stat-number">237 дней</div>
+                    <div class="stat-label">на исправление ошибок</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="security">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in">Правила цифровой безопасности</h2>
+                <p class="section-subtitle fade-in delay-1">Научись быть в безопасности в интернете</p>
+            </div>
+            <div class="cards-container">
+                <div class="card fade-in delay-2">
+                    <div class="card-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Надежные пароли</h3>
+                    <p>Придумывай сложные пароли из букв, цифр и символов. Не используй один пароль для всего. Лучше использовать разные пароли для разных сайтов.</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card fade-in delay-3">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Дополнительная защита</h3>
+                    <p>Включай двухфакторную аутентификацию - это как второй замок на твоем аккаунте. Даже если кто-то узнает твой пароль, ему будет трудно попасть на твой аккаунт.</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card fade-in delay-4">
+                    <div class="card-icon">
+                        <i class="fas fa-envelope-open"></i>
+                    </div>
+                    <h3>Опасные письма</h3>
+                    <p>Не открывай подозрительные письма и не переходи по странным ссылкам. Настоящие сайты не просят пароли по электронной почте. Если что-то кажется странным - не открывай!</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card fade-in delay-2">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Обновления</h3>
+                    <p>Регулярно обновляй приложения и игры на телефоне и компьютере. Обновления часто содержат защиту от новых вирусов и угроз.</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card fade-in delay-3">
+                    <div class="card-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Секретные данные</h3>
+                    <p>Храни важные документы и фотографии в секрете. Используй приложения с паролем для хранения личных вещей на телефоне или компьютере.</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card fade-in delay-4">
+                    <div class="card-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Резервное копирование</h3>
+                    <p>Сохраняй важные файлы в облаке. Это как копия твоих файлов, если что-то случится с телефоном или компьютером. Всё останется в безопасности!</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card fade-in delay-2">
+                    <div class="card-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>Безопасный Wi-Fi</h3>
+                    <p>Подключайся только к проверенным Wi-Fi сетям. Не используй бесплатный Wi-Fi в кафе или магазинах для входа в важные аккаунты. Это может быть небезопасно.</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card fade-in delay-3">
+                    <div class="card-icon">
+                        <i class="fas fa-virus"></i>
+                    </div>
+                    <h3>Антивирус</h3>
+                    <p>Установи антивирус на компьютер и телефон. Он будет искать вредоносные программы и удалять их, защищая твои данные и устройства.</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card fade-in delay-4">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Будь осторожен</h3>
+                    <p>Научись распознавать угрозы в интернете. Если что-то кажется подозрительным или слишком хорошим, чтобы быть правдой - это может быть ловушка!</p>
+                    <a href="#" class="card-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Игра по кибербезопасности -->
+    <section id="game" class="game-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in">Игра: Защити свой аккаунт!</h2>
+                <p class="section-subtitle fade-in delay-1">Выбери правильные действия, чтобы защитить свой аккаунт от хакеров</p>
+            </div>
+
+            <div class="game-container">
+                <div class="scenario fade-in delay-2">
+                    <h3>Ситуация 1: Тебе пришло письмо с просьбой ввести пароль</h3>
+                    <p>Что ты будешь делать?</p>
+                    <div class="options">
+                        <button class="option-btn" onclick="checkAnswer(1, 1)">Ввести пароль, как просят</button>
+                        <button class="option-btn" onclick="checkAnswer(1, 2)">Игнорировать письмо и удалить его</button>
+                        <button class="option-btn" onclick="checkAnswer(1, 3)">Ответить, что не буду вводить пароль</button>
+                    </div>
+                    <div class="feedback" id="feedback1"></div>
+                </div>
+
+                <div class="scenario fade-in delay-3">
+                    <h3>Ситуация 2: Ты хочешь создать пароль для нового аккаунта</h3>
+                    <p>Какой пароль будет самым безопасным?</p>
+                    <div class="options">
+                        <button class="option-btn" onclick="checkAnswer(2, 1)">123456</button>
+                        <button class="option-btn" onclick="checkAnswer(2, 2)">qwerty123</button>
+                        <button class="option-btn" onclick="checkAnswer(2, 3)">MySecurePassword2023!</button>
+                    </div>
+                    <div class="feedback" id="feedback2"></div>
+                </div>
+
+                <div class="scenario fade-in delay-4">
+                    <h3>Ситуация 3: Ты находишься в кафе и хочешь зайти в свой аккаунт</h3>
+                    <p>Что ты сделаешь?</p>
+                    <div class="options">
+                        <button class="option-btn" onclick="checkAnswer(3, 1)">Войти через бесплатный Wi-Fi в кафе</button>
+                        <button class="option-btn" onclick="checkAnswer(3, 2)">Подождать, пока не буду дома, и зайти оттуда</button>
+                        <button class="option-btn" onclick="checkAnswer(3, 3)">Использовать мобильный интернет (4G/5G)</button>
+                    </div>
+                    <div class="feedback" id="feedback3"></div>
+                </div>
+
+                <div class="game-result" id="gameResult">
+                    <h3>Результаты игры</h3>
+                    <p>Ответь на все вопросы, чтобы увидеть результат!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="tools-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in">Инструменты безопасности</h2>
+                <p class="section-subtitle fade-in delay-1">Проверь и создай надежные пароли</p>
+            </div>
+            <div class="tools-container">
+                <div class="tool-card fade-in delay-2">
+                    <div class="tool-header">
+                        <div class="tool-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3 class="tool-title">Проверка пароля</h3>
+                    </div>
+                    <div class="password-input-group">
+                        <input type="password" id="password" class="password-input" placeholder="Введи пароль для проверки...">
+                        <div class="strength-meter">
+                            <div class="strength-bar">
+                                <div class="strength-level" id="strength-level"></div>
+                            </div>
+                            <div class="strength-text" id="strength-text">Введи пароль для проверки</div>
+                        </div>
+                        <div class="requirements">
+                            <div class="requirement pending" id="req-length">
+                                <i class="fas fa-times"></i>Минимум 8 символов
+                            </div>
+                            <div class="requirement pending" id="req-uppercase">
+                                <i class="fas fa-times"></i>Заглавные буквы (A-Z)
+                            </div>
+                            <div class="requirement pending" id="req-lowercase">
+                                <i class="fas fa-times"></i>Строчные буквы (a-z)
+                            </div>
+                            <div class="requirement pending" id="req-number">
+                                <i class="fas fa-times"></i>Цифры (0-9)
+                            </div>
+                            <div class="requirement pending" id="req-special">
+                                <i class="fas fa-times"></i>Специальные символы (!@#$%^&*)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-card fade-in delay-3">
+                    <div class="tool-header">
+                        <div class="tool-icon">
+                            <i class="fas fa-random"></i>
+                        </div>
+                        <h3 class="tool-title">Создай надежный пароль</h3>
+                    </div>
+                    <div class="generator-controls">
+                        <div class="control-group">
+                            <label>
+                                <input type="checkbox" id="include-uppercase" checked> Заглавные буквы
+                            </label>
+                        </div>
+                        <div class="control-group">
+                            <label>
+                                <input type="checkbox" id="include-lowercase" checked> Строчные буквы
+                            </label>
+                        </div>
+                        <div class="control-group">
+                            <label>
+                                <input type="checkbox" id="include-numbers" checked> Цифры
+                            </label>
+                        </div>
+                        <div class="control-group">
+                            <label>
+                                <input type="checkbox" id="include-symbols" checked> Специальные символы
+                            </label>
+                        </div>
+                    </div>
+                    <div class="length-control">
+                        <span>Длина: </span>
+                        <input type="range" id="password-length" min="8" max="30" value="12" class="length-slider">
+                        <span id="length-value" class="length-value">12</span>
+                    </div>
+                    <div class="generated-password" id="generated-password">
+                        Нажми "Создать пароль"
+                    </div>
+                    <div class="actions">
+                        <button class="btn btn-primary" id="generate-btn">
+                            <i class="fas fa-sync-alt"></i>
+                            Создать пароль
+                        </button>
+                        <button class="btn btn-secondary" id="copy-btn">
+                            <i class="fas fa-copy"></i>
+                            Копировать
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CyberSecure</h3>
+                    <p>Твой надежный друг в мире кибербезопасности</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Изучай</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#tools">Инструменты</a></li>
+                        <li><a href="#security">Безопасность</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Помощь</h3>
+                    <ul class="footer-links">
+                        <li>Всегда помогаем</li>
+                        <li>Быстро реагируем</li>
+                        <li>Отвечаем на вопросы</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 CyberSecure. Учись быть в безопасности!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
